@@ -1,0 +1,376 @@
+.main-section{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: #1A7FBD;
+    border-top: 0.1px solid #FFF;
+    .container-form{
+        padding-top: 78px;
+        .container-register{
+            background: #FFF;
+            width: 405px;
+            height: 280px;
+            border-radius: 8px 8px 0 0;
+            .register-title{
+                font-size: 20px;
+                color: #CECECE;
+                padding-top: 31px;
+                padding-left: 39px;
+                font-weight: bold;
+            }
+            .register-text{
+                font-size: 14px;
+                color: #1A7FBD;
+                padding-top: 10px;
+                padding-left: 39px;
+                font-weight: bold;
+            }
+            .form-group{
+                padding-left: 39px;
+                padding-top: 10px;
+                align-items: center;
+                .input-form{
+                    background-image: initial;
+                    align-items: center;
+                    margin-top: 10px;
+                    width: 330px;
+                    height: 40px;
+                    background: #fbfbfb;
+                    border: 1px solid #1b212d;
+                    border-radius: 5px;
+            
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: 0.2px;
+                    color: #1b212d;
+                }
+            }
+        }  
+
+        .container-knowledge{
+            background: #1A7FBD;
+            width: 405px;
+            height: 170px;
+
+            .knowledge-title{
+                font-size: 14px;
+                color: #FFF;
+                padding-left: 39px;
+                padding-top: 31px;
+                font-weight: bold;
+            }
+
+            .form-select-1{
+                padding-top: 10px;
+                padding-left: 10px;
+                color: #FFF;
+
+                input[type=checkbox]{
+                    margin-left: 25px;
+                    border-color: #1A7FBD;
+                    cursor: pointer;
+                    border: 1px solid transparent;
+                }
+            }
+
+            .form-select-2{
+                padding-top: 10px;
+                padding-left: 10px;
+                color: #FFF;
+
+                input[type=checkbox]{
+                    margin-left: 25px;
+                    border-color: #1A7FBD;
+                    cursor: pointer;
+                    border: 1px solid transparent;
+                }
+            }
+
+            .form-select-3{
+                padding-top: 10px;
+                padding-left: 10px;
+                color: #FFF;
+
+                input[type=checkbox]{
+                    margin-left: 25px;
+                    border-color: #1A7FBD;
+                    cursor: pointer;
+                    border: 1px solid transparent;
+                }
+            }
+        }  
+        
+        .container-work{
+            background: #FFF;
+            width: 405px;
+            height: 280px;
+            border-radius: 0 0 8px 8px;
+            
+            .work-title{
+                font-size: 14px;
+                color: #1A7FBD;
+                padding-left: 39px;
+                padding-top: 31px;
+                font-weight: bold;
+            }
+
+            .form-select-work{
+                padding-top: 20px;
+                padding-left: 10px;
+                color: #A0A0A0;
+
+                input[type=checkbox]{
+                    margin-left: 25px;
+                    border-color: #1A7FBD;
+                    cursor: pointer;
+                    border: 1px solid transparent;
+                }
+            }
+
+            .message{
+                font-size: 10px;
+                color: #1A7FBD;
+                font-weight: bold;
+                margin-top: 15px;
+                text-align: center;
+            }
+
+            .button{
+                text-align: center;
+                justify-content: center;
+                
+                button{
+                    border: none;
+                    border-radius: 5px;
+                    margin-top: 20px;
+                    color: #FFF;
+                    background-color: #1A7FBD;
+                    height: 50px;
+                    width: 350px; 
+                }
+            }
+            .politic-text{
+                text-align: center;
+                padding-top: 10px;
+                font-size: 12px;
+                p{
+                    color: #9A9A9A;
+                }
+                span{
+                    color: #1A7FBD;
+                }
+            }
+        }
+    }
+}
+
+.project-section{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: #1A7FBD;
+    height: 700px;
+
+    .image-project{
+        display: flex;
+        padding-left: 290px;
+    }
+
+    .text-project{
+        justify-content: center;
+        align-items: center;
+        padding-right: 270px;
+        padding-left: 200px;
+        padding-top: 100px;
+        .text-title{
+            font-size: 40px;
+            color: #A4DCFF;
+        }
+        p{
+            font-size: 16px;
+            color: #FFF;
+        }
+        span{
+            font-size: 16px;
+            color: #FFF;
+            font-weight: bold;
+        }
+    }
+}
+
+.problem-section{
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+    padding-left: 280px;
+    padding-right: 280px;
+    .container-problem{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        .problem-text{
+            padding-left: 200px;
+            padding-right: 140px;
+            .problem-title{
+                color: #1A7FBD;
+                font-size: 40px;     
+                font-weight: bold;
+            }
+            .text-1{
+                font-size: 20px;
+                font-weight: bold;
+                color: #000000;
+            }
+            .text-2{
+                font-size: 16px;
+                color: #000000;
+                padding-top: 60px;
+            }
+            .text-3{
+                font-size: 16px;
+                font-weight: bold;
+                color: #000000;
+            }
+        }
+    }
+}
+
+.journey-section{
+    .journey-title{
+        display: flex;
+        padding-top: 200px;
+        align-items: center;
+        justify-content: center;
+        padding-left: 100px;
+        background: #FFF;
+        .img-left{
+            -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+        .title{
+            font-size: 40px;
+            font-weight: bold;
+            color: #1A7FBD;
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+    }
+    .container-journey-cards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        .journey-card{
+            margin-top: 60px;
+            margin-left: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            width: 400px;
+            height: 77px;
+            background: #1A7FBD;
+            border-radius: 10px;
+
+            .icon-card{
+                text-align: center;
+                border-radius: 5px;
+                margin-left: 10px;
+                width: 60px;
+                height: 40px;
+                background-color: #FFF;
+
+                img{
+                    margin-top: 7px;
+                }
+            }
+
+            .text-card{
+                margin-left: 25px;
+                font-size: 16px;
+                color: #FFF;
+                margin-right: 20px;
+            }
+        }
+    }
+    .container-button{
+        padding-top: 200px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        .journey-buttom{
+            border-radius: 10px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            background: #000000;
+            height: 70px;
+            width: 450px;
+            cursor: pointer;
+            .text-write{
+                font-size: 18px;
+                color: #FFF;
+            }
+            .text-blue{
+                font-size: 18px;
+                color: #1A7FBD;
+            }
+        }
+    }
+    .container-vector{
+        display: flex;
+        padding-top: 20px;
+        justify-content: center;
+    }
+}
+
+.goal-section{
+    padding-bottom: 120px;
+    height: 400px;
+    background: #1A7FBD;
+    align-items: center;
+    justify-content: center;
+    .title-goal{
+        font-size: 40px;
+        color: #FFF;
+        font-weight: bold;
+        padding-top: 70px;
+        text-align: center;
+    }
+}
+
+.container-cards{
+    height: 230px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    .menu-card{
+        border: 1px solid hsl(0, 0%, 63%);
+        border-radius: 5px;
+        width: 300px;
+        box-shadow: 5px 5px 5px #A0A0A0;
+        background: #FFF;
+        margin-right: 6px;
+        text-align: center;
+        padding-right: 30px;
+        padding-left: 30px;
+        .card-title{
+            padding-top: 20px;
+            color: #000000;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .card-text{
+            color: #000000;
+            font-size: 16px;
+
+        }
+    }
+
+}

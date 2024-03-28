@@ -1,0 +1,64 @@
+.app-header{
+    display: flex;
+    background: #1A7FBD;
+    height: 105px;
+    justify-content: center;
+    align-items: center;
+
+    .logo-header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 200px;
+    }
+    
+    .menu-header{
+        padding-left: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a{
+            color: #FFF;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .caixa-menu{
+            width: 94px;
+            height: 42px;
+            cursor: pointer;
+        }
+
+        .caixa-menu-texto{
+            font-size: 16px;
+            display: flex;
+            padding-left: 50px;
+            align-items: center;
+            color: #FFF; 
+        }
+    }
+    
+    .select-header{
+        justify-content: right;
+        padding-left: 161px;
+        display: flex;
+        align-items: center;
+        .caixa-select{
+            width: 159px;
+            height: 42px;
+            border-radius: 4px;
+            background: #000;            
+            cursor: pointer;
+        }
+
+        .caixa-select-texto{
+            text-align: center;
+            font-size: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #FFF;
+            font-weight: bold;
+        }
+    }
+}

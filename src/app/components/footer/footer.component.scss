@@ -1,0 +1,85 @@
+.app-footer{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    .social-media{
+        display: block;
+        padding-top: 100px;
+        align-items: center;
+        justify-content: center;
+        .logo-media{
+            display: flex;
+            .logo{
+                padding-top: 10px;
+                margin-left: 5px;
+            }
+        }
+        .rights-reserved{
+            p{
+                color: #FFF;
+                font-size: 9px;
+            }
+        }
+        
+    }
+
+    .select-footer{
+        justify-content: right;
+        padding-left: 161px;
+        display: flex;
+        align-items: center;
+        .caixa-select{
+            width: 159px;
+            height: 42px;
+            border-radius: 4px;
+            background: #FFF;            
+            cursor: pointer;
+        }
+
+        .caixa-select-texto{
+            text-align: center;
+            font-size: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #000;
+            font-weight: bold;
+        }
+    }
+
+    .menu-footer{
+        padding-left: 50px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+
+        .caixa-menu{
+            width: 94px;
+            height: 42px;
+            cursor: pointer;
+        }
+
+        .caixa-menu-texto{
+            font-size: 16px;
+            display: flex;
+            padding-left: 50px;
+            align-items: center;
+            color: #FFF; 
+        }
+    }
+
+    .contact-footer{
+        padding-left: 150px;
+        .title-contact{
+            font-size: 16px;
+            font-weight: bold;
+            color: #FFF;
+        }
+        .text-contact{
+            font-size: 16px;
+            color: #FFF;
+        }
+    }
+}
